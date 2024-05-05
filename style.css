@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+span {
+  color: brown;
+  background-color: beige;
+  display: inline-flex;
+  gap: 0.4rem;
+}
+
+span::after {
+  content: "";
+  display: inline-block;
+  height: 5rem;
+  width: 3px;
+  background-color: brown;
+}
